@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Monteserrat';
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#carousel{
+  height: 500px;
+  width: 100%;
+}
+.active{
+  object-fit: fill;
+}
+
+.card-img-top{
+  width: 270px !important;
+  padding-left: 5%;
+  height: 200px !important;
+}
+
